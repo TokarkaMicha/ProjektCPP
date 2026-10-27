@@ -9,6 +9,7 @@ public:
     Iterator(Wezel* start);
     bool jest() const;
     void dalej();
+    void wstecz();
     int pobierz() const;
     Wezel* pobierzWezel() const;
 };
